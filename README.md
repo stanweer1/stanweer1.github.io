@@ -1,2 +1,2 @@
 # stanweer1.github.io
-Portfolio Website
+Online resume / CV
