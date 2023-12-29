@@ -134,6 +134,10 @@ a {
   color: inherit;
   text-decoration: none;
 }
+a.urduh {
+  font-family: Jameel Noori Nastaleeq;
+  font-size: 130%;
+}
 a:hover {
   border-bottom-color: transparent;
   color: #ffffff;
@@ -151,6 +155,14 @@ em, i {
 p {
   margin: 0 0 2em 0;
 }
+p.urduh {
+  font-family: Jameel Noori Nastaleeq;
+  display: flex; 
+  justify-content: flex-end;
+  font-size: 130%;
+  line-height: 10%;
+}
+
 
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
@@ -184,6 +196,28 @@ h1.major:after {
   right: 0;
   width: 100%;
 }
+h1.urduh {
+  font-family: Jameel Noori Nastaleeq;
+  display: flex; 
+  justify-content: flex-end;
+  margin: 0 0 1.3em 0;
+  position: relative;
+  padding-bottom: 0.35em;
+}
+h1.urduh:after {
+  background-image: -webkit-gradient(linear, left top, right top, from(#5e42a6), to(#b74e91));
+  background-image: linear-gradient(to right, #5e42a6, #b74e91);
+  -webkit-transition: max-width 0.2s ease;
+  transition: max-width 0.2s ease;
+  border-radius: 0.2em;
+  bottom: 0;
+  content: "";
+  height: 0.05em;
+  position: absolute;
+  right: 0;
+  width: 100%;
+}
+
 
 h2 {
   font-size: 1.75em;
