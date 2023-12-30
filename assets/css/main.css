@@ -123,7 +123,7 @@ body, input, select, textarea {
 }
 @media screen and (max-width: 360px) {
   body, input, select, textarea {
-    font-size: 11pt;
+    font-size: 8pt;
   }
 }
 
@@ -200,7 +200,7 @@ h1.urduh {
   font-family: Jameel Noori Nastaleeq;
   display: flex; 
   justify-content: flex-end;
-  margin: 0 0 1.3em 0;
+  margin: 1em 1em 1em 1em;
   position: relative;
   padding-bottom: 0.35em;
 }
