@@ -2636,10 +2636,16 @@ header h6 + p {
   padding-left: 2.5em;
 }
 .split.style1 > :nth-child(2n-1) {
-  width: calc(66.66666% - 2.5em);
+  width: calc(25% - 2.5em);
 }
 .split.style1 > :nth-child(2n) {
-  width: calc(33.33333% - 2.5em);
+  width: calc(75% - 2.5em);
+}
+.split.style2 > :nth-child(2n-1) {
+  width: calc(75% - 2.5em);
+}
+.split.style2 > :nth-child(2n) {
+  width: calc(25% - 2.5em);
 }
 @media screen and (max-width: 1680px) {
   .split > * {
@@ -2656,6 +2662,12 @@ header h6 + p {
   }
   .split.style1 > :nth-child(2n) {
     width: calc(75% - 2em);
+  }
+  .split.style2 > :nth-child(2n-1) {
+    width: calc(75% - 2em);
+  }
+  .split.style2 > :nth-child(2n) {
+    width: calc(25% - 2em);
   }
 }
 @media screen and (max-width: 980px) {
